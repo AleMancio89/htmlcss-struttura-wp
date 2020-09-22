@@ -7,6 +7,7 @@
 body{
   background-image: url(img/natural-pattern.png);
   font-family: 'Roboto', sans-serif;
+  margin: 20px 0;
 }
 
 .container{
@@ -47,4 +48,74 @@ ul.menu li a{
 
 ul.menu li:hover{
   background-color: lightgrey;
+}
+
+.row::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.row{
+  margin-top: 10px;
+}
+
+.column1, .column2{
+  background-color: white;
+  border-radius: 5px;
+  padding: 30px;
+
+}
+
+.column1 img{
+  height: 20px;
+  weight: 20px;
+}
+
+.column1 h2{
+  display:inline-block;
+}
+
+.column1 p{
+  color: green;
+}
+
+.row .column1{
+  float:left;
+  width: 25%;
+}
+
+.row .column2{
+  float:left;
+  width: 40%;
+  margin: 0 5%;
+}
+
+.row .column3{
+  float:left;
+  width: 25%;
+}
+
+.widget{
+  background-color: white;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  padding: 30px;
+}
+
+.row p{
+  padding-top: 40px;
+}
+
+footer{
+  background-color: white;
+  border-radius: 5px;
+
+}
+
+footer p{
+  text-align: center;
+  color: lightgrey;
+  font-style: italic;
+  font-size: 15px;
 }
