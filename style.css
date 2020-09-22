@@ -1,0 +1,50 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-image: url(img/natural-pattern.png);
+  font-family: 'Roboto', sans-serif;
+}
+
+.container{
+  width: 60%;
+  margin: auto;
+}
+
+.header-top{
+  background-image: url(img/natural-header.jpg);
+  border: 10px solid white;
+  height: 450px;
+  text-align: center;
+}
+
+.header-top h2{
+  color: white;
+}
+
+nav{
+  background-color: grey;
+  width: 100%;
+  text-align: center;
+}
+
+ul.menu li{
+  display: inline-block;
+  height: 40px;
+  line-height: 40px;
+  padding: 0 10px;
+}
+
+ul.menu li a{
+  font-weight: bold;
+  font-size: 15px;
+  color: white;
+  text-decoration: none;
+}
+
+ul.menu li:hover{
+  background-color: lightgrey;
+}
